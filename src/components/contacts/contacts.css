@@ -76,7 +76,7 @@ input, textarea {
 /* --------------- Media Queries (Small Devices) ------------------ */
 @media screen and (max-width: 600px) {
     .contacts {
-        height: 60rem;
+        height: 65rem;
     }
 
     .container.contact_container{

@@ -115,6 +115,7 @@
     .about_me {
         width: 28rem;
         height: 20rem;
+        align-items: center;
         margin: 0 auto 3rem;
     }
 
