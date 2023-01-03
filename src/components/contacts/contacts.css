@@ -67,10 +67,18 @@ input, textarea {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .contacts {
+        height: 60rem;
+    }
 }
 
 /* --------------- Media Queries (Small Devices) ------------------ */
 @media screen and (max-width: 600px) {
+    .contacts {
+        height: 60rem;
+    }
+
     .container.contact_container{
         width: var(--column-variables-sm)
     }

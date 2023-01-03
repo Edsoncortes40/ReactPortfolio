@@ -6,7 +6,7 @@ import {RiCheckboxCircleFill} from 'react-icons/ri'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' className='about'>
       <h2>About Me</h2>
       <p className='intro_paragraph'>
         Hello and welcome to my portfolio page! I'm a new graduate from the University of Maryland, 

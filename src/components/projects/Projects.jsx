@@ -31,7 +31,7 @@ const data = [
 
 const Projects = () => {
   return (
-  <section id='projects'>
+  <section id='projects' className='projects'>
     <div className='projects'>
       <h2>My Projects</h2>
       <h5>Portfolio</h5>
