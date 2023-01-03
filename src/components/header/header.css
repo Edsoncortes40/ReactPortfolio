@@ -1,0 +1,81 @@
+header {
+    height: 130vh;
+    padding-top: 4rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ----------------------- CTA ----------------------- */
+.CTA {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ----------------------- Header Socials ----------------------- */
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    left: 0;
+    bottom: 18rem;
+}
+
+.header_socials::after {
+    content: "";
+    width: 1.2px;
+    height: 3rem;
+    background: var(--color-primary);
+}
+
+.social {
+    font-size: 1.3rem;
+}
+/* ----------------------- ME (image) ----------------------- */
+.me {
+    width: 34rem;
+    height: 43rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: calc(50% - 17rem);
+    margin-top: 3.8rem;
+    overflow: hidden;
+}
+
+/* ----------------------- CTA ----------------------- */
+.scroll_down{
+    position: absolute;
+    right: 2.3rem;
+    bottom: 22rem;
+    transform: rotate(90deg);
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+
+/* ----------------------- Medium Queries (Medium Devices) ----------------------- */
+@media screen and (max-width: 1024px){
+    header {
+        height: 68vh;
+    }
+}
+
+/* ----------------------- Small Queries (Small Devices) ----------------------- */
+@media screen and (max-width: 600px){
+    header {
+        height: 100vh;
+    }
+
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+}

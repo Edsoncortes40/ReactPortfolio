@@ -1,0 +1,124 @@
+
+
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.intro_paragraph {
+    margin: 1rem 11rem 3.5rem;
+    text-align: center;
+    color: var(--color-secondary);
+}
+
+.about_me{
+    width: 31rem;
+    height: 23rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about_me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition)
+}
+
+.about_me-image:hover {
+    transform: rotate(0deg);
+}
+
+.about_cards {
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.about_card {
+    background: var(--color-secondary);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about_card:hover {
+    background: transparent;
+    border-color: var(--color-secondary);
+    cursor: default;
+}
+
+.about_icon {
+    font-size: 1.3rem;
+}
+
+.about_card h5 {
+    font-size: 1rem;
+}
+
+.about_card small {
+    font-size: 0.7rem;
+}
+
+.skills {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.about-btn {
+    text-align: center;
+    background: var(--color-primary);
+    color: var(--color-bkg);
+    width: max-content;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+
+.about-btn:hover {
+    background: var(--color-white);
+    color: var(--color-bkg);
+    border-color: transparent;
+}
+
+/* --------------- Media Queries (Medium Devices) ----------------- */
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about_me {
+        width: 55%;
+        margin: 2rem auto 4rem;
+    }
+}
+
+/* --------------- Media Queries (Small Devices) ------------------ */
+@media screen and (max-width: 600px) {
+    .about_me {
+        width: 70%;
+        margin: 0 auto 3rem;
+    }
+
+    .about_cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+}
