@@ -12,7 +12,7 @@
 
 .about_me{
     width: 31rem;
-    height: 23rem;
+    height: 20rem;
     margin-top: 3rem;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
