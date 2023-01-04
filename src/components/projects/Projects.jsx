@@ -2,6 +2,8 @@ import React from 'react'
 import './projects.css'
 import lavi_image from '../../assets/lavi.jpg'
 import rank_store_image from '../../assets/rank_my_store.png'
+import question_mark_image from '../../assets/question_mark.jpg'
+import mips_image from '../../assets/mips.jpg'
 
 const data = [
   {
@@ -26,6 +28,22 @@ const data = [
                   upload photos to the store's page.",
     github: 'https://github.com/gutama8787/Rank-My-Store',
     demo: 'https://drive.google.com/file/d/1-jf1LOlTyxdCw3GbCO-pBxpnnmHRFCJq/view'
+  },
+  {
+    id: 3,
+    image: mips_image,
+    title: 'Mips Pipelining',
+    description: "Project in C that simulates instruction pipelining in a MIPS system.",
+    github: 'https://github.com/Edsoncortes40/411Pipeline',
+    demo: 'https://github.com/Edsoncortes40/411Pipeline'
+  },
+  {
+    id: 4,
+    image: question_mark_image,
+    title: 'More Coming Soon',
+    description: "",
+    github: 'https://github.com/edsoncortes40',
+    demo: 'https://drive.google.com/edsoncortes40'
   }
 ]
 
