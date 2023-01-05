@@ -4,6 +4,7 @@ import lavi_image from '../../assets/lavi.jpg'
 import rank_store_image from '../../assets/rank_my_store.png'
 import question_mark_image from '../../assets/question_mark.jpg'
 import mips_image from '../../assets/mips.jpg'
+import react_image from '../../assets/react.png'
 
 const data = [
   {
@@ -33,12 +34,23 @@ const data = [
     id: 3,
     image: mips_image,
     title: 'Mips Pipelining',
-    description: "Project in C that simulates instruction pipelining in a MIPS system.",
+    description: "Project in C that simulates instruction pipelining in a MIPS system. This large scale project \
+                  was made for the CMSC 411 at the University of Maryland, College Park, in order to help student \
+                  get comfortable with Mips pipelining and instruction fowarding.",
     github: 'https://github.com/Edsoncortes40/411Pipeline',
     demo: 'https://github.com/Edsoncortes40/411Pipeline'
   },
   {
     id: 4,
+    image: react_image,
+    title: 'React Portfolio',
+    description: "Personal portfolio page built using React, HTML, CSS and Javascript. The portfolio gives viewers \
+                  an introduction to my skillset and what projects I have worked on.",
+    github: 'https://github.com/Edsoncortes40/ReactPortfolio',
+    demo: 'https://edcortesportfolio.pages.dev/'
+  },
+  {
+    id: 5,
     image: question_mark_image,
     title: 'More Coming Soon',
     description: "",

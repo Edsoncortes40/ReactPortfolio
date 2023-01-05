@@ -58,13 +58,17 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+    .projects {
+        height: 110rem;
+    }
 }
 
 
 /* -------------------- Media Queries (Small Devices) -------------------------- */
 @media screen and (max-width: 600px){
     .projects {
-        height: 138rem;
+        height: 170rem;
     }
 
     .project_container {
