@@ -37,7 +37,7 @@
 }
 
 .project_image {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
     width: 20rem;
     height:15rem;
     overflow: hidden;
@@ -68,12 +68,16 @@
 /* -------------------- Media Queries (Small Devices) -------------------------- */
 @media screen and (max-width: 600px){
     .projects {
-        height: 170rem;
+        height: 205rem;
     }
 
     .project_container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .project_image {
+        margin-left: 3.5rem;
     }
 
 }

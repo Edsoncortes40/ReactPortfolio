@@ -5,6 +5,7 @@ import rank_store_image from '../../assets/rank_my_store.png'
 import question_mark_image from '../../assets/question_mark.jpg'
 import mips_image from '../../assets/mips.jpg'
 import react_image from '../../assets/react.png'
+import starry_night from '../../assets/starry_night.jpeg'
 
 const data = [
   {
@@ -32,6 +33,15 @@ const data = [
   },
   {
     id: 3,
+    image: starry_night,
+    title: 'Inverse AI Art Generator',
+    description: "Work in Progress. Website that allows users to enter a prompt. The website will then make a post request to generate \
+                  an image depicting the opposite of the prompt. Front end coded using react, backend API coded using Python and FASTAPI",
+    github: 'https://github.com/Edsoncortes40/NegaArt-website',
+    demo: 'https://github.com/Edsoncortes40/NegaArt-website'
+  },
+  {
+    id: 4,
     image: mips_image,
     title: 'Mips Pipelining',
     description: "Project in C that simulates instruction pipelining in a MIPS system. This large scale project \
@@ -41,7 +51,7 @@ const data = [
     demo: 'https://github.com/Edsoncortes40/411Pipeline'
   },
   {
-    id: 4,
+    id: 5,
     image: react_image,
     title: 'React Portfolio',
     description: "Personal portfolio page built using React, HTML, CSS and Javascript. The portfolio gives viewers \
@@ -50,7 +60,7 @@ const data = [
     demo: 'https://edcortesportfolio.pages.dev/'
   },
   {
-    id: 5,
+    id: 6,
     image: question_mark_image,
     title: 'More Coming Soon',
     description: "",
