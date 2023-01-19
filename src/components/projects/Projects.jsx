@@ -38,7 +38,7 @@ const data = [
     description: "Work in Progress. Website that allows users to enter a prompt. The website will then make a post request to generate \
                   an image depicting the opposite of the prompt. Front end coded using react, backend API coded using Python and FASTAPI",
     github: 'https://github.com/Edsoncortes40/NegaArt-website',
-    demo: 'https://github.com/Edsoncortes40/NegaArt-website'
+    demo: 'https://negaart-website.pages.dev/'
   },
   {
     id: 4,
