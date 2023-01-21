@@ -37,7 +37,7 @@ const data = [
     title: 'Inverse AI Art Generator',
     description: "Work in Progress. Website that allows users to enter a prompt. The website will then make a post request to generate \
                   an image depicting the opposite of the prompt. Front end coded using react, backend API coded using Python and FASTAPI",
-    github: 'https://github.com/Edsoncortes40/NegaArt-website',
+    github: 'https://github.com/Edsoncortes40/InvertAIArtAPI',
     demo: 'https://negaart-website.pages.dev/'
   },
   {
