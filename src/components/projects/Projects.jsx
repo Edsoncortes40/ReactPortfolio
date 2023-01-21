@@ -35,8 +35,10 @@ const data = [
     id: 3,
     image: starry_night,
     title: 'Inverse AI Art Generator',
-    description: "Work in Progress. Website that allows users to enter a prompt. The website will then make a post request to generate \
-                  an image depicting the opposite of the prompt. Front end coded using react, backend API coded using Python and FASTAPI",
+    description: "Website that allows users to enter a prompt. The website will then make a request to the backend API \
+                  which inverts the prompt, and then generates an image using OpenAI's DALLE AI image generator using that\
+                  inverted prompt. The front-end websige was coded  using React, \
+                  and the backend API coded using Python and FastAPI",
     github: 'https://github.com/Edsoncortes40/InvertAIArtAPI',
     demo: 'https://negaart-website.pages.dev/'
   },
