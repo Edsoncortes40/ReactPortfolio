@@ -39,7 +39,7 @@ const data = [
                   which inverts the prompt, and then generates an image using OpenAI's DALLE AI image generator using that\
                   inverted prompt. The front-end websige was coded  using React, \
                   and the backend API coded using Python and FastAPI",
-    github: 'https://github.com/Edsoncortes40/InvertAIArtAPI',
+    github: 'https://github.com/Edsoncortes40/NegaArt-API/tree/main/python-backend',
     demo: 'https://negaart-website.pages.dev/'
   },
   {
