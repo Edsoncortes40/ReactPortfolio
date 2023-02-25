@@ -42,7 +42,7 @@ header {
 /* ----------------------- ME (image) ----------------------- */
 .me {
     width: 34rem;
-    height: 43rem;
+    height: 40rem;
     border-radius: 2rem;
     position: absolute;
     left: calc(50% - 17rem);

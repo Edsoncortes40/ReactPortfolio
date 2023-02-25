@@ -5,7 +5,7 @@ import rank_store_image from '../../assets/rank_my_store.png'
 import question_mark_image from '../../assets/question_mark.jpg'
 import mips_image from '../../assets/mips.jpg'
 import react_image from '../../assets/react.png'
-import starry_night from '../../assets/starry_night.jpeg'
+import starry_night from '../../assets/starry_night.jpg'
 
 const data = [
   {
