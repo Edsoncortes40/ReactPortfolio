@@ -36,9 +36,9 @@ const data = [
     image: starry_night,
     title: 'Inverse AI Art Generator',
     description: "Website that allows users to enter a prompt. The website will then make a request to the backend API \
-                  which inverts the prompt, and then generates an image using OpenAI's DALLE AI image generator using that\
+                  which inverts the prompt, and then generates an image using OpenAI's DALLE AI image generator, using that\
                   inverted prompt. The front-end websige was coded  using React, \
-                  and the backend API coded using Python and FastAPI",
+                  and the backend API coded using Python and FastAPI. ",
     github: 'https://github.com/Edsoncortes40/NegaArt-API/tree/main/python-backend',
     demo: 'https://negaart-website.pages.dev/'
   },
