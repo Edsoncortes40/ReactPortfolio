@@ -3,6 +3,7 @@ import './footer.css'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {AiOutlineCopyrightCircle} from 'react-icons/ai'
+import {AiOutlineLinkedin} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -19,6 +20,7 @@ const Footer = () => {
       <div className='footer_socials'>
         <a href='https://instagram.com/edcortes.riv' target='_blank'><AiOutlineInstagram/></a>
         <a href='https://github.com/Edsoncortes40' target='_blank'><AiOutlineGithub/></a>
+        <a href='https://linkedin.com/Edsoncortes40' target="_blank"><AiOutlineLinkedin/></a>
       </div>
 
       <div className='footer_copyright'>
