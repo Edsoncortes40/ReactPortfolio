@@ -3,13 +3,35 @@ import './projects.css'
 import lavi_image from '../../assets/lavi.jpg'
 import rank_store_image from '../../assets/rank_my_store.png'
 import question_mark_image from '../../assets/question_mark.jpg'
-import mips_image from '../../assets/mips.jpg'
+import s3_image from '../../assets/logo_s3.png'
 import react_image from '../../assets/react.png'
 import starry_night from '../../assets/starry_night.jpg'
 
 const data = [
   {
     id: 1,
+    image: rank_store_image,
+    title: 'Rank My Store',
+    description: "Rank My Store is an android application that allows users to sign in, create an account, and find \
+                  nearby grocery stores which they can rate based on healthy produce offered. The app will take the \
+                  user's location in order to find nearby stores, and also has a photo feature which allows users to \
+                  upload photos to the store's page.",
+    github: 'https://github.com/gutama8787/Rank-My-Store',
+    demo: 'https://drive.google.com/file/d/1-jf1LOlTyxdCw3GbCO-pBxpnnmHRFCJq/view'
+  },
+  {
+    id: 2,
+    image: starry_night,
+    title: 'Inverse AI Art Generator',
+    description: "Website that allows users to enter a prompt. The website will then make a request to the backend API \
+                  which inverts the prompt, and then generates an image using OpenAI's DALLE AI image generator, using that\
+                  inverted prompt. The front-end websige was coded  using React, \
+                  and the backend API coded using Python and FastAPI. ",
+    github: 'https://github.com/Edsoncortes40/NegaArt-API/tree/main/python-backend',
+    demo: 'https://negaart-website.pages.dev/'
+  },
+  {
+    id: 3,
     image: lavi_image,
     title: 'LAVI',
     description: "LAVI (Language Agnostic Vulnerability Identifier) is a tool for meant for developer \
@@ -21,36 +43,14 @@ const data = [
     demo: 'https://github.com/teamlavi/package'
   },
   {
-    id: 2,
-    image: rank_store_image,
-    title: 'Rank My Store',
-    description: "Rank My Store is an android application that allows users to sign in, create an account, and find \
-                  nearby grocery stores which they can rate based on healthy produce offered. The app will take the \
-                  user's location in order to find nearby stores, and also has a photo feature which allows users to \
-                  upload photos to the store's page.",
-    github: 'https://github.com/gutama8787/Rank-My-Store',
-    demo: 'https://drive.google.com/file/d/1-jf1LOlTyxdCw3GbCO-pBxpnnmHRFCJq/view'
-  },
-  {
-    id: 3,
-    image: starry_night,
-    title: 'Inverse AI Art Generator',
-    description: "Website that allows users to enter a prompt. The website will then make a request to the backend API \
-                  which inverts the prompt, and then generates an image using OpenAI's DALLE AI image generator, using that\
-                  inverted prompt. The front-end websige was coded  using React, \
-                  and the backend API coded using Python and FastAPI. ",
-    github: 'https://github.com/Edsoncortes40/NegaArt-API/tree/main/python-backend',
-    demo: 'https://negaart-website.pages.dev/'
-  },
-  {
     id: 4,
-    image: mips_image,
-    title: 'Mips Pipelining',
-    description: "Project in C that simulates instruction pipelining in a MIPS system. This large scale project \
-                  was made for the CMSC 411 at the University of Maryland, College Park, in order to help student \
-                  get comfortable with Mips pipelining and instruction fowarding.",
-    github: 'https://github.com/Edsoncortes40/411Pipeline',
-    demo: 'https://github.com/Edsoncortes40/411Pipeline'
+    image: s3_image,
+    title: 'Student Sustainability Summit Website',
+    description: "Volunteered as a  Software Developer for a UMD Student Organization, known as the Student Sustainability Summit (or S3 for short). \
+                  Worked with a team of two other Computer Science students to develop and design the organization's main website, along with the mobile \
+                  app.",
+    github: 'https://github.com/studentsustainabilitysummit/studentsustainabilitysummit.github.io',
+    demo: 'https://www.studentsustainabilitysummit.org/index.html'
   },
   {
     id: 5,
