@@ -4,34 +4,22 @@ import lavi_image from '../../assets/lavi.jpg'
 import rank_store_image from '../../assets/rank_my_store.png'
 import question_mark_image from '../../assets/question_mark.jpg'
 import s3_image from '../../assets/logo_s3.png'
-import react_image from '../../assets/react.png'
+import fragTracker from '../../assets/fragTrackerLogo.png'
 import starry_night from '../../assets/starry_night.jpg'
 
 const data = [
   {
     id: 1,
-    image: rank_store_image,
-    title: 'Rank My Store',
-    description: "Rank My Store is an android application that allows users to sign in, create an account, and find \
-                  nearby grocery stores which they can rate based on healthy produce offered. The app will take the \
-                  user's location in order to find nearby stores, and also has a photo feature which allows users to \
-                  upload photos to the store's page.",
-    github: 'https://github.com/gutama8787/Rank-My-Store',
-    demo: 'https://drive.google.com/file/d/1-jf1LOlTyxdCw3GbCO-pBxpnnmHRFCJq/view'
+    image: fragTracker,
+    title: 'Fragrance Tracker',
+    description: "Next.JS web application that allows users to browse and track fragrances. Uses Firestore Functions to perform operations in the \
+                  backend, and Typescript for the front end logic. Allows users with Admin status to add new fragrances to the site, which will be \
+                  stored in the firestore database.",
+    github: 'https://github.com/Edsoncortes40/ReactPortfolio',
+    demo: 'https://edcortesportfolio.pages.dev/'
   },
   {
     id: 2,
-    image: starry_night,
-    title: 'Inverse AI Art Generator',
-    description: "Website that allows users to enter a prompt. The website will then make a request to the backend API \
-                  which inverts the prompt, and then generates an image using OpenAI's DALLE AI image generator, using that\
-                  inverted prompt. The front-end websige was coded  using React, \
-                  and the backend API coded using Python and FastAPI. ",
-    github: 'https://github.com/Edsoncortes40/NegaArt-API/tree/main/python-backend',
-    demo: 'https://negaart-website.pages.dev/'
-  },
-  {
-    id: 3,
     image: lavi_image,
     title: 'LAVI',
     description: "LAVI (Language Agnostic Vulnerability Identifier) is a tool for meant for developer \
@@ -41,6 +29,17 @@ const data = [
                   dependency versions and test for severerities in order to remediate CVE's in projects.",
     github: 'https://github.com/teamlavi/package',
     demo: 'https://github.com/teamlavi/package'
+  },
+  {
+    id: 3,
+    image: starry_night,
+    title: 'Inverse AI Art Generator',
+    description: "Website that allows users to enter a prompt. The website will then make a request to the backend API \
+                  which inverts the prompt, and then generates an image using OpenAI's DALLE AI image generator, using that\
+                  inverted prompt. The front-end websige was coded  using React, \
+                  and the backend API coded using Python and FastAPI. ",
+    github: 'https://github.com/Edsoncortes40/NegaArt-API/tree/main/python-backend',
+    demo: 'https://negaart-website.pages.dev/'
   },
   {
     id: 4,
@@ -54,21 +53,15 @@ const data = [
   },
   {
     id: 5,
-    image: react_image,
-    title: 'React Portfolio',
-    description: "Personal portfolio page built using React, HTML, CSS and Javascript. The portfolio gives viewers \
-                  an introduction to my skillset and what projects I have worked on.",
-    github: 'https://github.com/Edsoncortes40/ReactPortfolio',
-    demo: 'https://edcortesportfolio.pages.dev/'
+    image: rank_store_image,
+    title: 'Rank My Store',
+    description: "Rank My Store is an android application that allows users to sign in, create an account, and find \
+                  nearby grocery stores which they can rate based on healthy produce offered. The app will take the \
+                  user's location in order to find nearby stores, and also has a photo feature which allows users to \
+                  upload photos to the store's page.",
+    github: 'https://github.com/gutama8787/Rank-My-Store',
+    demo: 'https://drive.google.com/file/d/1-jf1LOlTyxdCw3GbCO-pBxpnnmHRFCJq/view'
   },
-  {
-    id: 6,
-    image: question_mark_image,
-    title: 'More Coming Soon',
-    description: "",
-    github: 'https://github.com/edsoncortes40',
-    demo: 'https://drive.google.com/edsoncortes40'
-  }
 ]
 
 const Projects = () => {
