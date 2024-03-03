@@ -16,7 +16,7 @@ const data = [
                   backend, and Typescript for the front end logic. Allows users with Admin status to add new fragrances to the site, which will be \
                   stored in the firestore database.",
     github: 'https://github.com/Edsoncortes40/ReactPortfolio',
-    demo: 'https://edcortesportfolio.pages.dev/'
+    demo: 'https://frag-web-client-mcbqv2f2hq-ue.a.run.app'
   },
   {
     id: 2,
